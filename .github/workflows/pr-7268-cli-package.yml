@@ -1,7 +1,8 @@
 name: PR 7268 CLI Package diagnostic
 on:
   push:
-    branches: [diagnostics/pr-7268-cli-package]
+    branches: [main]
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
